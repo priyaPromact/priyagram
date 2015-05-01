@@ -13,7 +13,7 @@ class Activity(models.Model):
         ('c', 'Comment'),
     )
     user_id = models.ForeignKey(User)
-    timestamp = models.DateTimeField()
+    pub_date = models.DateTimeField()
     activity_type = models.CharField(max_length=30,choices=ACTIVITY_TYPE)
     data = models.CharField(max_length=300)
 
