@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>priyagram</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'instaWeb/style.css' %}" />
+</head>
+
+</html>
+<body>
+<div class="root">
+
+    <div class="lpDialog">
+        <header class="lpDialogHeader" >
+            <h1 class="lpLogo">Priyagram</h1>
+        </header>
+        <div class="lpMain" >
+            <div class="Login" >
+                <h3 class="lAlerts lIsAlertsEmpty" ></h3>
+                <div class="lMain" >
+                    <div class="lFormContainer" >
+                        <form >
+                            <p class="lfField">
+                                <label class="lfFieldLabel" for="lfFieldInputUsername" >Username:</label>
+                                <input class="lfFieldInput" id="lfFieldInputUsername" name="username" maxlength="30" autocapitalize="false" autocorrect="false" value="" type="text"></p>
+                            <p class="lfField" >
+                                <label class="lfFieldLabel" for="lfFieldInputPassword" >Password:</label>
+                                <input class="lfFieldInput" id="lfFieldInputPassword" name="password" autocapitalize="false" autocorrect="false" value="" type="password"></p>
+                            <p class="lfActions" >
+                                <a href="/accounts/password/reset/" class="lfForgot" target="_top" >Forgot your password?</a><input class="lfSubmit" value="Log in" type="submit"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
