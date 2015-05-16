@@ -129,3 +129,125 @@ html .lfSubmit {
 html .lfSubmit, html .lfSubmit:visited {
     color: #FFF;
 }
+.lIsAlertsEmpty {
+    display: none;
+}
+.lAlerts {
+    background-color: rgba(221, 221, 221, 0.15);
+    border-bottom-color: #c3cfd9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: 0 1px 5px rgba(153, 153, 153, 0.2);
+    color: #3f729b;
+    line-height: 64px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.lIsErrorAlert {
+    color: #fa364a;
+}
+
+.top-bar-new {
+    position: relative;
+}
+.top-bar {
+    background-color: #517fa4;
+    background-image: url("//instagramstatic-a.akamaihd.net/bluebar/a6d72f8/images/shared/noise-1.png"), -moz-linear-gradient(center top , #517fa4, #306088);
+    background-position: 50% 50%;
+    border-bottom-color: rgba(4, 40, 71, 0.8);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: 0 1px 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0 1px 1px rgba(0, 0, 0, 0.2);
+    height: 43px;
+    z-index: 100;
+}
+
+.top-bar-wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 1024px;
+    position: relative;
+}
+
+.top-bar-new .top-bar-left {
+    left: -1px;
+}
+.top-bar-new .top-bar-left, .top-bar-new .top-bar-right {
+    position: absolute;
+    top: 0;
+}
+
+.top-bar-actions {
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: rgba(0, 0, 0, 0.1);
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: rgba(255, 255, 255, 0.1);
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.top-bar-actions {
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: rgba(0, 0, 0, 0.1);
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: rgba(255, 255, 255, 0.1);
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+}
+ul {
+    list-style-type: square;
+}
+ol, ul {
+    list-style-position: outside;
+}
+
+.top-bar-new .top-bar-right {
+    right: 0;
+}
+.top-bar-new .top-bar-left, .top-bar-new .top-bar-right {
+    position: absolute;
+    top: 0;
+}
+.account-state, .account-state a, .account-state a:hover {
+    color: #fff;
+}
+.page-footer p, .account-state {
+    font-weight: 700;
+}

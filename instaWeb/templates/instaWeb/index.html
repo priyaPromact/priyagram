@@ -15,10 +15,15 @@
         </header>
         <div class="lpMain" >
             <div class="Login" >
-                <h3 class="lAlerts lIsAlertsEmpty" ></h3>
+                {%if invalid %}
+                <h3 class="lAlerts" >
+                        <span class="lIsErrorAlert">Your username or password was incorrect.</span>
+                </h3>
+                {%endif%}
                 <div class="lMain" >
                     <div class="lFormContainer" >
-                        <form >
+                        <form id="login_form" method="post" action="/instaWeb/login/">
+                             {% csrf_token %}
                             <p class="lfField">
                                 <label class="lfFieldLabel" for="lfFieldInputUsername" >Username:</label>
                                 <input class="lfFieldInput" id="lfFieldInputUsername" name="username" maxlength="30" autocapitalize="false" autocorrect="false" value="" type="text"></p>
@@ -26,7 +31,7 @@
                                 <label class="lfFieldLabel" for="lfFieldInputPassword" >Password:</label>
                                 <input class="lfFieldInput" id="lfFieldInputPassword" name="password" autocapitalize="false" autocorrect="false" value="" type="password"></p>
                             <p class="lfActions" >
-                                <a href="/accounts/password/reset/" class="lfForgot" target="_top" >Forgot your password?</a><input class="lfSubmit" value="Log in" type="submit"></p>
+                                <a href="" class="lfForgot" target="_top" >Forgot your password?</a><input class="lfSubmit" value="Log in" type="submit"></p>
                         </form>
                     </div>
                 </div>
