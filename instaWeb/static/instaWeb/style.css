@@ -1,0 +1,131 @@
+body {
+        background: url("images/body_noise.png") repeat scroll 0px 0px transparent;
+        width:100%;
+    font-family: "proxima-nova","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+.lpDialog {
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    background: none repeat scroll 0% 0% #FDFDFD;
+    border: 1px solid #A4BACA;
+    width: 400px;
+}
+.lpDialogOuter, .lpDialog {
+    position: relative;
+    margin: 0px auto;
+}
+.lpDialogOuter {
+    text-align: left;
+}
+.lpDialogHeader {
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: 0px -1px 0px #06365F inset, 0px 1px 0px rgba(255, 255, 255, 0.2) inset;
+    background-color: #517FA4;
+    background-position: 50% 50%;
+    border-width: 1px 1px 0px;
+    border-color: #1C5380;
+    border-style: solid;
+    color: #FFF;
+    font-size: 18px;
+    height: 44px;
+    margin: -1px -1px 1px;
+    position: relative;
+    text-align: center;
+}
+.lpLogo {
+    height: 33px;
+    left: 50%;
+    font-size: 20px;
+    margin: -14px 0px 0px -48px !important;
+    position: relative;
+    top: 50%;
+    width: 100px;
+}
+h1 {
+    margin: 40px 0px 20px -1px;
+}
+h1, h2, h3, h4, h5, h6, th {
+    font-weight: 700;
+}
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+.lpMain {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.lpDialogOuter {
+    text-align: left;
+}
+.lFormContainer {
+    padding: 25px 30px 20px;
+}
+.lfField, .lfActions {
+    clear: left;
+    min-height: 40px;
+}
+form p {
+    margin-bottom: 10px;
+}
+p {
+    margin: 0px 0px 10px;
+}
+.lfFieldLabel {
+    padding-top: 5px;
+    width: 35%;
+}
+.lfFieldInput {
+    width: 65%;
+}
+.lfFieldLabel, .lfFieldInput {
+    display: inline;
+    float: left;
+}
+input, select, textarea {
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+input {
+    padding: 9px 8px 7px;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0px;
+}
+button, input, select {
+    vertical-align: baseline;
+}
+a, a:visited {
+    color: #3F729B;
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #A4BACA !important;
+    background: none repeat scroll 0% 0% #F5F7F9;
+}
+input[type="submit"], input.submit {
+    font-weight: 700;
+    width: auto !important;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+html .lfSubmit {
+    float: right;
+}
+html .lfSubmit {
+    border: 1px solid #3D8B5F;
+}
+html .lfSubmit {
+    background-color: #6BB38A;
+    background-image: -moz-linear-gradient(center top , #6BB38A, #3D8B5F);
+    background-position: 50% 50%;
+    text-shadow: 0px 1px 1px #1E693F;
+}
+html .lfSubmit, html .lfSubmit:visited {
+    color: #FFF;
+}
