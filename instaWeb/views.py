@@ -32,3 +32,7 @@ def user_login(request):
 
 def home(request):
     return render(request, 'instaWeb/home.html')
+
+def user_logout(request):
+    logout(request)
+    return HttpResponseRedirect('/')

@@ -10,11 +10,11 @@
 <header class="top-bar top-bar-new">
     <div  class="top-bar-wrapper">
         <div  class="logo">
-            <a  href="/">Instagram</a>
+            <a  href={% url 'instaWeb:home' %}>Instagram</a>
         </div>
         <div  class="top-bar-left">
             <ul  class="top-bar-actions">
-                <li ><a href="/" title="Home" class="link-active top-bar-home"><i></i></a></li>
+                <li ><a href={% url 'instaWeb:home' %} title="Home" class="link-active top-bar-home"><i></i></a></li>
             </ul>
             <ul class="bluebar-menu-items"></ul>
         </div>
@@ -22,6 +22,17 @@
             <ul class="top-bar-actions">
                 <li  class="link-profile">
                     <a  href="javascript:;" id="_dropdownContext0">
-                       <strong >priyarvyas</strong></a><span></span></li></ul></div></div></header>
+                       <strong >{{ user.username }}</strong></a>{% if user.is_authenticated %}<a href="{% url 'instaWeb:logout' %}">Logout</a>{% endif %}<br /><span></span></li></ul></div></div></header>
+<div data-reactid=".0.0.2" class="main"><div data-reactid=".0.0.2.0" class="wrapper">
+<div class="timelineContainer" data-reactid=".0.0.2.0.0">
+    <div class="timelineSidebar" data-reactid=".0.0.2.0.0.0:$media1001318874075064188:0.0">
+        <div class="timelineBookmark" data-reactid=".0.0.2.0.0.0:$media1001318874075064188:0.0.0">
+        </div>
+    </div>
+    <div class="timelineCenter" data-reactid=".0.0.2.0.0.0:$media1001318874075064188:0.1">
+
+    </div>
+</div>
+</div>
 </body>
 </html>

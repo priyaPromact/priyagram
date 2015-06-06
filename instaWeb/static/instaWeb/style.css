@@ -251,3 +251,198 @@ ol, ul {
 .page-footer p, .account-state {
     font-weight: 700;
 }
+
+.top-bar-home i {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("//instagramstatic-a.akamaihd.net/bluebar/3afe227/images/shared/shared-assets.png");
+    background-origin: padding-box;
+    background-position: 6px -194px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    left: 0;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+.top-bar-new .logo {
+    left: 50%;
+    margin-left: -50px !important;
+    position: absolute;
+}
+
+.top-bar .logo {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("//instagramstatic-a.akamaihd.net/bluebar/3afe227/images/shared/shared-assets.png");
+    background-origin: padding-box;
+    background-position: 0 4px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 35px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-indent: -9999em;
+    top: 4px;
+    width: 97px;
+}
+.top-bar-new .logo {
+    margin-left: -50px !important;
+}
+
+.top-bar-new .top-bar-left {
+    left: -1px;
+}
+.top-bar-new .top-bar-left, .top-bar-new .top-bar-right {
+    position: absolute;
+    top: 0;
+}
+.top-bar-left .top-bar-actions {
+    display: inline;
+    float: left;
+}
+.top-bar-actions {
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+ul {
+    list-style-type: square;
+}
+ol, ul {
+    list-style-position: outside;
+}
+
+.top-bar-actions > li > a:active, .top-bar-actions > li > a.link-active, html.touch .top-bar-actions > li > a.pressed {
+    background-color: rgba(6, 54, 95, 0.35);
+    border-left-color: -moz-use-text-color;
+    border-left-style: none;
+    border-left-width: medium;
+    box-shadow: -1px 0 0 rgba(255, 255, 255, 0.15), 0 0 1px rgba(6, 54, 95, 0.4) inset, 1px 0 1px rgba(6, 54, 95, 0.4) inset;
+}
+.top-bar-actions > li > a {
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: block;
+    height: 20px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    padding-right: 11px;
+    padding-top: 11px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(3, 27, 47, 0.5);
+}
+.top-bar a, .top-bar a:visited, .top-bar a:hover {
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+.top-bar-home, .top-bar-home i {
+    height: 44px !important;
+    width: 44px !important;
+}
+.top-bar-home {
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+}
+.top-bar-home, .top-bar-home i {
+    height: 44px !important;
+    width: 44px !important;
+}
+.top-bar-home {
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+}
+a, a:visited {
+    color: #3f729b;
+}
+
+.timelineFeedPage .main .wrapper {
+    max-width: 1024px;
+    padding-bottom: 52px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    width: 992px;
+}
+.timelineSidebar {
+    float: left;
+    padding-bottom: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 16px;
+    width: 224px;
+}
+.timelineCenter {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.05) inset, -1px 0 0 rgba(0, 0, 0, 0.05) inset;
+}
+.timelineCenter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #e0e1e2;
+    background-image: url("//instagramstatic-a.akamaihd.net/bluebar/3afe227/images/shared/noise-2.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-top-style: solid;
+    border-top-width: 0;
+    margin-left: 224px;
+    max-width: 512px;
+    min-width: 240px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+}

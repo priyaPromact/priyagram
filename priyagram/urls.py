@@ -7,5 +7,6 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^instaWeb/', include('instaWeb.urls')),
+    url(r'^instaWeb/', include('instaWeb.urls', namespace="instaWeb")),
+    url(r'^$', include('instaWeb.urls', namespace="instaWeb")),
 ]
